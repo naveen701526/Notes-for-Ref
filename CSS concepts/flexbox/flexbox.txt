@@ -1,0 +1,55 @@
+//Flexbox is a one-dimensional layout method for laying out items in rows or columns.
+
+//Flex items can be re-ordered via css without messing with markup
+//using the property
+order: number(the position of the item);
+
+//To create a flex container off an element
+
+display: flex; // all direct child elements are "flex-items"
+
+// by default it aligns in horizontal row. However we can also align it in vertical column too
+
+// cross axis is the y-axis of flex
+// main axis is the x-axis of flex
+
+//Align along the main axis 
+justify-content: value;
+
+//Align items along the cross axis
+align-items: value;
+
+//Align when extra space in cross axis that is when there is extra space
+align-content: value;
+
+// To put the flex items in a column
+
+flex-direction: column;
+
+//To set specific width's to the flex items
+flex-basis: value;
+
+//To divide the flex items in a row or column in the desired ratio's 
+flex: 1; //divides equally
+flex 1 2 1; //divides 25% 50% 25%
+
+//If there are too many flex items in a row or column
+
+flex-wrap: wrap; // it will only display 12 flex items and after that it'll display in new line
+
+
+//Short hand notation of flex-direction and flex-wrap
+flex-flow: row wrap;
+
+
+// To align items to the left,right,center in a row use 
+justify-content: flex-start/flex-end/center;
+
+//To align items vertically you must set a height first
+align-items: stretch(default value);
+align-items: flex-start/flex-end/center; // aligns at the beginning or ending or center of the column of the container
+
+//We can align items themsevles rather than using the conatiner to align them.
+
+//example:
+align-self: flex-end;

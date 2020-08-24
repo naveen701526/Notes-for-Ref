@@ -1,0 +1,74 @@
+/* Some of the Important Properties extensively used in Flex Box System */
+
+*{
+    display: flex;
+    flex-direction: row; 
+    /* options:
+        column,
+        column-reverse,
+        row-reverse,
+     */
+    flex-wrap: wrap;
+    /* options:
+        nowrap,
+        wrap-reverse,
+    */
+    flex: 1;
+    /* flex: 2;
+       flex:1 2 3;
+       flex: auto;
+    */
+
+    /* Align items horizontal */
+    justify-content: space-evenly;
+    /*  
+            OPTIONS:
+            flex-start 
+            flex-end 
+            center
+            space-between
+            space-around
+            space-evenly 
+        */
+
+    /* Align items vertical (must be height) */
+    align-items: baseline;
+    /*  
+            OPTIONS:
+            flex-start 
+            flex-end 
+            center
+            baseline
+            stretch
+        */
+
+    /* Align items vertical where extra space */
+        align-content: space-between;
+        /*  
+            OPTIONS:
+            flex-start 
+            flex-end 
+            center
+            space-between
+            space-around
+            stretch
+        */
+
+    /* Align single item vertical */
+
+        align-self: flex-end;
+
+        /* 
+            OPTIONS:
+            flex-start
+            flex-end
+            center
+            baseline
+            stretch;
+         */
+
+    /* any number */
+    order: 3; 
+
+}
+

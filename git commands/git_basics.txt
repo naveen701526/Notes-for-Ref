@@ -1,0 +1,78 @@
+
+
+//Command to Create A file:
+touch fileName.extension
+
+// To initialize folder as a git repository, also it will create a ".git" folder in your directory
+git init
+
+//if you didn't add your mail-id and username to git the do that thing first
+
+git config --global user.name 'your-name'
+
+//mail-id
+
+git config --global user.email 'your-email'
+
+// To add files to your git repository
+
+git add filename(with extension)
+
+//Other way of adding files to git repo is 
+
+git add *.extension //which will add all files with the same extension
+
+// To add everything (including files, folders etc) in your current folder to your git repository use the command..
+
+git add .
+
+
+// To check the staging area of your files 
+
+git status // THis will tell us what files are added to the staging area and what files were not added to it( with the message untrackable files shown on the screen)
+
+//To remove a file from the staging area
+
+git rm --cached file name
+
+
+// To commit the files which are in the staging area
+
+git commit -m 'comments'
+
+//.gitignore is a special file to which if you add any name of the files they will be ignored in both staging and commit
+
+touch .gitignore
+
+
+//To create a branch in which you do the same work without loosingthe main data
+
+git branch name_of_the_branch(without any quotes)
+
+//Now to switch to the created branch 
+
+git checkout name_of_the_branch(the one you created.)
+
+//To merge a branch with another one
+
+git merge name_of_the_branch(the branch which you wanna merge with)
+
+//To list the remote repository in your git repository
+git remote
+
+//To add a remote repository to the git
+git remote add origin link_of_your_repository
+
+//To push your local repository to a remote repository(github)
+git push -u origin master(name_of_the_branch you want to push)
+
+//To clone any remote repo in github to your local storage
+
+git clone link_of_the_repo
+
+//To clone the latest changes of your repo use
+
+git pull
+
+ 
+
