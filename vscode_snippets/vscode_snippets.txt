@@ -1,0 +1,48 @@
+{
+	"Console Log": {
+		"prefix": "cl",
+		"body": "console.log($1);",
+		"description": "Console Log"
+	},
+	"named function": {
+		"prefix": "nfn",
+		"body": [
+			"function ${1:functionName}($2) {",
+			"  $3",
+			"}"
+		],
+		"description": "named function"
+	},
+	"Arrow Function": {
+		"prefix": "ar",
+		"body": [
+			"const ${1:functionName} = ($2,$3) => {",
+			"  $4",
+			"}"
+		],
+		"description": "Arrow Function"
+	},
+	"const declare": {
+		"prefix": "c",
+		"body": [
+			"const $1 = $2;"
+		],
+		"description": "const declare"
+	},
+	"let declare": {
+		"prefix": "l",
+		"body": [
+			"let $1 = $2;"
+		],
+		"description": "let declare"
+	},
+	"Array Method": {
+		"prefix": "arm",
+		"body": [
+			"${1|forEach,map,filter,reduce|}((${2:item}) => {",
+			"  $3",
+			"})"
+		],
+		"description": "Array Method"
+	}
+}
