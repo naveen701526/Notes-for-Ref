@@ -1,0 +1,69 @@
+//HTML DOM methods are actions you can perform (on HTML Elements).
+
+//HTML DOM properties are values (of HTML Elements) that you can set or change.
+
+//HTML DOM has elements which are nothing but objects with Properties and Methods
+
+
+//A property is a value that you can get or set (like changing the content of an HTML element).
+
+//A method is an action you can do (like add or deleting an HTML element).
+
+//Important Methods and Propteries in Dom
+
+addEventListener() - //calls a function based on the action performed on the element
+
+appendChild() - //Adds a new child node, to an element, as the last child node
+
+childElementCount - //Returns the number of child elements an element has
+
+childNodes - //Returns a collection of an element's child nodes (including text and comment nodes)
+
+children - //used more than childNodes. Returns a collection of an element's child element (excluding text and comment nodes)
+
+
+classList - //Returns the class name(s) of an element
+
+className - //Sets or returns the value of the class attribute of an element
+
+firstChild - //Returns the first child node of an element
+
+
+firstElementChild - // Returns the first child element of an element
+
+getAttribute() - //Returns the specified attribute value of an element node
+
+
+getElementsByClassName()/getElementsByTagName() - //Returns a collection of all child elements with the specified class name/Tag Name
+
+innerHTML - //Sets or returns the content of an element
+
+innerText - //Sets or returns the text content of a node and its descendants
+
+lastChild - //Returns the last child node of an element
+
+lastElementChild - //Returns the last child element of an element
+
+nextElementSibling - //Returns the next element at the same node tree level
+
+previousElementSibling - //Returns the previous element at the same node tree level
+
+parentElement - //Returns the parent element node of an element
+
+querySelector() - //Returns the first child element that matches a specified CSS selector(s) of an element
+
+querySelectorAll() - // Returns all child elements that matches a specified CSS selector(s) of an element
+
+remove() - //Removes the element from the DOM
+
+removeAttribute() - //Removes a specified attribute from an element
+
+
+removeChild() - //Removes a child node from an element
+
+replaceChild() - //Replaces a child node in an element
+
+style - //Sets or returns the value of the style attribute of an element
+
+
+
