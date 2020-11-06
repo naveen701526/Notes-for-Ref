@@ -50,6 +50,14 @@ git diff
 // to compare the stages between staging area and commited code
 git diff --staged
 
+//to use git diff command in GUI like vscode follow the steps
+git config --global diff.tool vscode
+git config --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"
+git config --global -e //it'll open vscode and you can check it once
+
+//now we can use the git diff command using vscode
+git difftool  // staging area vs working directory
+git difftool --staged //staging area vs commited code
 
 //To check what files are present in the staging area
 
