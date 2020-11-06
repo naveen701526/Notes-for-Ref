@@ -42,6 +42,14 @@ git add .
 
 git status // THis will tell us what files are added to the staging area and what files were not added to it( with the message untrackable files shown on the screen)
 
+//the get shorter description when using the git status command
+git status -s
+
+//to compare between working directory and staging area code
+git diff
+// to compare the stages between staging area and commited code
+git diff --staged
+
 
 //To check what files are present in the staging area
 
