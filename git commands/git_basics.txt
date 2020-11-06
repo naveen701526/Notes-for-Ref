@@ -20,6 +20,11 @@ git config --global core.editor "code --wait"
 // to edit all the global setting using the deault editor
 git config --global -e
 
+//modify end of lines
+git config --global core.autocrlf input // for mac and linux
+git config --global core.autocrlf true // for windows
+
+
 // To add files to your git repository
 
 git add filename(with extension)
