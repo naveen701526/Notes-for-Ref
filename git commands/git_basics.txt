@@ -14,6 +14,12 @@ git config --global user.name 'your-name'
 
 git config --global user.email 'your-email'
 
+// default editor for git instead of using vim
+git config --global core.editor "code --wait"
+
+// to edit all the global setting using the deault editor
+git config --global -e
+
 // To add files to your git repository
 
 git add filename(with extension)
