@@ -80,6 +80,17 @@ git log --oneline
 //To get the above information provided by this command in reverse
 git log --oneline --reverse
 
+//Viewing a commit
+git show id_in hexa decimal //to view the changes done in that content file
+
+git show HEAD~(a number) //To move to our desired location in the file
+
+git show HEAD~(a number):file name //to view the content of the file when it was staged
+
+git ls-tree HEAD~(a number) //to view the files during that commit
+
+
+
 //.gitignore is a special file to which if you add any name of the files they will be ignored in both staging and commit
 
 touch .gitignore
