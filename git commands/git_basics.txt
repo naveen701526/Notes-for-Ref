@@ -72,6 +72,14 @@ git rm --cached file name
 
 git commit -m 'comments'
 
+
+//To check history of our commits in our git repository
+git log
+//To get an abstract view 
+git log --oneline
+//To get the above information provided by this command in reverse
+git log --oneline --reverse
+
 //.gitignore is a special file to which if you add any name of the files they will be ignored in both staging and commit
 
 touch .gitignore
