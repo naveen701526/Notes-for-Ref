@@ -72,6 +72,9 @@ git rm --cached file name
 
 git commit -m 'comments'
 
+//To commit the files by skipping the staging area completely.
+git commit -am 'comments'
+
 
 //To check history of our commits in our git repository
 git log
