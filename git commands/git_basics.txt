@@ -67,6 +67,10 @@ git ls-files
 
 git rm --cached file name
 
+/to remove a file from both the staging area and working directory as well
+
+git rm file name
+
 
 // To commit the files which are in the staging area
 
